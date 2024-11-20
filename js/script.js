@@ -18,6 +18,49 @@ $(document).ready(function(){
 
     
 
+ // demo 40
+
+ $(".doted").css("textDecoration", "underline");
+
+ // demo 39
+
+ $(".font_style").css("textTransform","capitalize");
+
+
+ // demo 38
+
+    $(".btn_mouseenter").on("mouseenter", function (){
+        alert("this is mouseenter");
+    })
+
+ // demo 37
+
+    $(".btn_dbl").on("dblclick", function(){
+        alert("hi! you are sucessfull");
+    })
+
+
+ // demo 36
+
+ $(".fadeToggle-1").on("click", function(){
+    $(".fadeToggle").fadeToggle();
+})
+
+
+
+ // demo 35
+
+ $(".fadeIN").on("click", function(){
+    $(".fadeIn").fadeIn();
+})
+    
+
+ // demo 34
+
+    $(".fadeOut-1").on("click", function(){
+        $(".fadeOut").fadeOut();
+    })
+
 
  // demo 33
 
